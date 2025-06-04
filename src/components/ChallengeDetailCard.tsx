@@ -6,6 +6,7 @@ import Pagination from "./Pagination";
 import {
   ITEMS_PER_PAGE,
   JOINED_CHALLENGES_STORAGE_KEY,
+  MEDAL_IMAGE,
 } from "../constants/constants";
 
 interface DailyGoal {
@@ -115,7 +116,7 @@ const ChallengeDetailCard = ({
   return (
     <div className="relative bg-[#323232] text-white rounded-lg p-4 w-full max-w-sm">
       {progress >= 100 && (
-        <img src="/medal.svg" alt="Completed" className="medal-jump" />
+        <img src={MEDAL_IMAGE} alt="Completed" className="medal-jump" />
       )}
       <img
         src={imageUrl}

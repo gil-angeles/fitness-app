@@ -5,9 +5,8 @@ import type { GoalType } from "../data/challenges";
 import {
   CHALLENGED_FRIENDS_STORAGE_KEY,
   ITEMS_PER_PAGE,
+  MEDAL_IMAGE,
 } from "../constants/constants";
-
-const medalSrc = "/medal.svg";
 
 interface DailyGoal {
   day: number;
@@ -131,7 +130,7 @@ const ChallengeFriendDetailCard = ({
   return (
     <div className="relative bg-[#323232] text-white rounded-lg p-4 w-full max-w-3xl">
       {userProgress >= 100 && (
-        <img src={medalSrc} alt="Completed" className="medal-jump" />
+        <img src={MEDAL_IMAGE} alt="Completed" className="medal-jump" />
       )}
       <img
         src={imageUrl}

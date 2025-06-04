@@ -7,9 +7,9 @@ interface ChallengeCardProps {
   imageUrl: string;
   title: string;
   description: string;
-  joined?: boolean;
-  onJoin?: () => void;
-  duration?: number;
+  joined: boolean;
+  onJoin: () => void;
+  duration: number;
   finalObjective?: number;
   goalType?: GoalType;
 }
