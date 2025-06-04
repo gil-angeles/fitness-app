@@ -15,6 +15,17 @@ Watch the app with some notes:
 
 ---
 
+## 🌐 Live Demo
+
+Try it out here:
+👉 https://683f9238d7609e4bbe0635de--cool-bubblegum-736603.netlify.app/
+
+> ⚠️ WebSocket Limitations on Netlify
+> Important: The WebSocket server (ws-server.js) runs locally and cannot be hosted directly on Netlify, as Netlify does not support this.
+> Live Updates section will be empty
+
+---
+
 ## 🚀 Tech Stack
 
 - **React** & **TypeScript**: Since this is the stack required for the position.
