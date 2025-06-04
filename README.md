@@ -1,12 +1,13 @@
 # 🏋️‍♂️ Fitness Challenge Tracker
 
-This is a **React + TypeScript + Vite** project designed to track fitness challenges, simulate live updates via WebSockets, and persist progress using localStorage. Styled with Tailwind CSS and tested using Vitest and Testing Library.
+This is a **React + TypeScript + Vite** project designed to track fitness challenges, simulate live updates via WebSockets, and persist progress using localStorage.
+Styled with Tailwind CSS and tested using Vitest and Testing Library.
 
 ---
 
 ## 📹 Demo Video
 
-Watch the app in action:  
+Watch the app with some notes:
 **[https://www.loom.com/share/a6d819667cfa4763bbae69166d852edb](https://www.loom.com/share/a6d819667cfa4763bbae69166d852edb?sid=03062256-35cb-4c12-abe6-d9142ea93c29)**
 
 > ❗ You **do not need to sign in** to view the video — if a sign-in window appears, you can **close it**.  
@@ -16,15 +17,13 @@ Watch the app in action:
 
 ## 🚀 Tech Stack
 
-- **React** & **TypeScript**: For building structured and scalable UI components.
-- **Vite**: Lightning-fast dev server and optimized build. Perfect for small to mid-size projects.
-  - Fast startup and HMR
-  - Native ESM support
-  - Ideal for modern front-end development
-- **Tailwind CSS**: Utility-first CSS for rapid, consistent styling.
-- **Vitest** & **Testing Library**: For reliable unit testing and component interaction testing.
+- **React** & **TypeScript**: Since this is the stack required for the position.
+- **Vite**:Fast dev server ideal for small to mid-size projects.
+- **Tailwind CSS**: For rapid, consistent styling.
+- **Vitest** & **Testing Library**: For unit testing and component interaction testing mixing react and vite.
 - **WebSocket (via ws)**: Simulates a backend pushing live updates.
 - **localStorage**: Persists joined challenges and progress across reloads.
+- **CSS Animations** — All animations are implemented with pure CSS, located in `index.css`
 
 ---
 
@@ -34,4 +33,18 @@ Watch the app in action:
 git clone https://github.com/your-username/fitness-app.git
 cd fitness-app
 npm install
+```
+
+## ▶️ Running the App (Frontend + WebSocket)
+
+```bash
+npm run start
+```
+
+note: Starts ws-server.js (mock backend) and starts the Vite dev server
+
+🧪 Running Tests
+
+```bash
+npm run test
 ```
