@@ -67,7 +67,7 @@ const ChallengesJoined = () => {
           />
         );
       })}
-      {challengedFriends.map((item, index) => {
+      {challengedFriends.map((item) => {
         const fullChallenge = challenges.find((c) => c.title === item.title);
         if (!fullChallenge) return null;
 
